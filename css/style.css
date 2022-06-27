@@ -1,0 +1,24 @@
+.navbar {
+    background-color: rgb(54, 54, 54) !important;
+}
+
+.nav-item a, .nav-link {
+    color: #fff !important;
+}
+
+.img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.cards {
+    display: flex;
+    gap: 10px;
+}
+
+.cards .card .card-img-top {
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
