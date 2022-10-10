@@ -1,15 +1,5 @@
 <?php
 
-    // function getWholeQuantity(){
-    //     $wholeQtt = 0;
-    //     if(isset($_SESSION["products"])){
-    //         array_walk($_SESSION["products"], function($product) use (&$wholeQtt){
-    //             $wholeQtt += $product["qtt"];
-    //         });
-    //     }
-    //     return $wholeQtt;
-    // }
-
     function getWholeQuantity(){
         $wholeQtt = 0;
         if(isset($_SESSION["products"])){
